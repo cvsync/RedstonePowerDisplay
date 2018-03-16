@@ -6,6 +6,7 @@ The Minecraft resource pack ``Redstone Power Display'' , which replace redstone 
 
 ## Variants
 RedstonePowerDisplay.zip - Overlay '0' when a redstone dust is not powered.
+
 RedstonePowerDisplay_NoPower0.zip - Don't show '0' when a redstone dust is not powered.
 
 ## For Java Edition users

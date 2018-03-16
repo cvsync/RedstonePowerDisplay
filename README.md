@@ -12,4 +12,4 @@ RedstonePowerDisplay_NoPower0.zip - Don't show '0' when a redstone dust is not p
 ## For Java Edition users
 1.) Download RedstonePowerDisplay.zip or RedstonePowerDisplay_NoPower0.zip
 
-2.) Put it into C:\Users\<Username>\AppData\Roaming\.minecraft\resourcepacks
+2.) Put it into C:\Users\\\<Username\>\AppData\Roaming\.minecraft\resourcepacks

@@ -1,7 +1,7 @@
 #! /bin/sh
 
 VER_MAJOR=1
-VER_MINOR=0
+VER_MINOR=1
 
 RESOURCE_PACK_NAME=RedstonePowerDisplay
 

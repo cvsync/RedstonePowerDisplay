@@ -1,7 +1,7 @@
 #! /bin/sh
 
 VER_MAJOR=1
-VER_MINOR=1
+VER_MINOR=2
 
 RESOURCE_PACK_NAME=RedstonePowerDisplay
 
@@ -72,7 +72,7 @@ done
 # textures
 cp -R ${SRCDIR}/textures ${TMPBASEDIR}/
 
-cp ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/
+cp ${RESOURCE_PACK_NAME}/pack_no_power_0.png ${TMPDIR}/pack.png
 cat ${RESOURCE_PACK_NAME}/pack.mcmeta | \
 sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
 sed "s/XXXMINORXXX/${VER_MINOR}/g" | \

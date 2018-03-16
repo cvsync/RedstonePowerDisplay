@@ -1,6 +1,9 @@
 # Redstone Power Display
 The Minecraft resource pack ``Redstone Power Display'' , which replace redstone wire textures and display the redstone power level.
 
+## Known Bug
+No main resource pack image.
+
 ## Latest Version
 1.0.0
 

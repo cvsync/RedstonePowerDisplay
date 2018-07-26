@@ -8,57 +8,57 @@
         { "south": "side|up", "west":  "side|up" },
         { "west":  "side|up", "north": "side|up" }
       ] },
-      "apply": { "model": "redstone_dot" }
+      "apply": { "model": "block/redstone_dust_dot" }
     },
     { "when":
       { "OR": [
         { "north": "none", "east": "none", "south": "side|up", "west": "none" },
         { "north": "side|up" }
       ] },
-      "apply": { "model": "redstone_side0" }
+      "apply": { "model": "block/redstone_dust_side0" }
     },
     { "when":
       { "OR": [
         { "north": "side|up", "east": "none", "south": "none", "west": "none" },
         { "south": "side|up" }
       ] },
-      "apply": { "model": "redstone_side_alt0" }
+      "apply": { "model": "block/redstone_dust_side_alt0" }
     },
     { "when":
       { "OR": [
         { "north": "none", "east": "none", "south": "none", "west": "side|up" },
         { "east": "side|up" }
       ] },
-      "apply": { "model": "redstone_side_alt1", "y": 270 }
+      "apply": { "model": "block/redstone_dust_side_alt1", "y": 270 }
     },
     { "when":
       { "OR": [
         { "north": "none", "east": "side|up", "south": "none", "west": "none" },
         { "west": "side|up" }
       ] },
-      "apply": { "model": "redstone_side1", "y": 270 }
+      "apply": { "model": "block/redstone_dust_side1", "y": 270 }
     },
 
-    { "when": { "north": "up" }, "apply": { "model": "redstone_up"           } },
-    { "when": { "east":  "up" }, "apply": { "model": "redstone_up", "y":  90 } },
-    { "when": { "south": "up" }, "apply": { "model": "redstone_up", "y": 180 } },
-    { "when": { "west":  "up" }, "apply": { "model": "redstone_up", "y": 270 } },
+    { "when": { "north": "up" }, "apply": { "model": "block/redstone_dust_up"           } },
+    { "when": { "east":  "up" }, "apply": { "model": "block/redstone_dust_up", "y":  90 } },
+    { "when": { "south": "up" }, "apply": { "model": "block/redstone_dust_up", "y": 180 } },
+    { "when": { "west":  "up" }, "apply": { "model": "block/redstone_dust_up", "y": 270 } },
 
-    { "when": { "power":  0 }, "apply": { "model": "rs00" } },
-    { "when": { "power":  1 }, "apply": { "model": "rs01" } },
-    { "when": { "power":  2 }, "apply": { "model": "rs02" } },
-    { "when": { "power":  3 }, "apply": { "model": "rs03" } },
-    { "when": { "power":  4 }, "apply": { "model": "rs04" } },
-    { "when": { "power":  5 }, "apply": { "model": "rs05" } },
-    { "when": { "power":  6 }, "apply": { "model": "rs06" } },
-    { "when": { "power":  7 }, "apply": { "model": "rs07" } },
-    { "when": { "power":  8 }, "apply": { "model": "rs08" } },
-    { "when": { "power":  9 }, "apply": { "model": "rs09" } },
-    { "when": { "power": 10 }, "apply": { "model": "rs10" } },
-    { "when": { "power": 11 }, "apply": { "model": "rs11" } },
-    { "when": { "power": 12 }, "apply": { "model": "rs12" } },
-    { "when": { "power": 13 }, "apply": { "model": "rs13" } },
-    { "when": { "power": 14 }, "apply": { "model": "rs14" } },
-    { "when": { "power": 15 }, "apply": { "model": "rs15" } }
+    { "when": { "power":  0 }, "apply": { "model": "block/rs00" } },
+    { "when": { "power":  1 }, "apply": { "model": "block/rs01" } },
+    { "when": { "power":  2 }, "apply": { "model": "block/rs02" } },
+    { "when": { "power":  3 }, "apply": { "model": "block/rs03" } },
+    { "when": { "power":  4 }, "apply": { "model": "block/rs04" } },
+    { "when": { "power":  5 }, "apply": { "model": "block/rs05" } },
+    { "when": { "power":  6 }, "apply": { "model": "block/rs06" } },
+    { "when": { "power":  7 }, "apply": { "model": "block/rs07" } },
+    { "when": { "power":  8 }, "apply": { "model": "block/rs08" } },
+    { "when": { "power":  9 }, "apply": { "model": "block/rs09" } },
+    { "when": { "power": 10 }, "apply": { "model": "block/rs10" } },
+    { "when": { "power": 11 }, "apply": { "model": "block/rs11" } },
+    { "when": { "power": 12 }, "apply": { "model": "block/rs12" } },
+    { "when": { "power": 13 }, "apply": { "model": "block/rs13" } },
+    { "when": { "power": 14 }, "apply": { "model": "block/rs14" } },
+    { "when": { "power": 15 }, "apply": { "model": "block/rs15" } }
   ]
 }

@@ -1,7 +1,7 @@
 #! /bin/sh
 
 VER_MAJOR=1
-VER_MINOR=4
+VER_MINOR=5
 
 RESOURCE_PACK_NAME=RedstonePowerDisplay
 PACK_FORMAT=4
@@ -27,7 +27,7 @@ cat ${SRCDIR}/blockstates/redstone_wire.json | \
 cat > ${TMPBASEDIR}/blockstates/redstone_wire.json
 # models
 mkdir -p ${TMPBASEDIR}/models ${TMPBASEDIR}/models/block
-for _file in redstone_dot rs
+for _file in redstone_dust_dot redstone_dust_side redstone_dust_side_alt redstone_dust_side_alt0 redstone_dust_side_alt1 redstone_dust_side0 redstone_dust_side1 redstone_dust_up rs
 do
 	cat ${SRCDIR}/models/block/${_file}.json | \
 	sed "s/XXBLOCKDIRXX/${TEXTURES_BLOCKTARGET}/g" | \
@@ -68,7 +68,7 @@ grep -v "rs00" | \
 cat > ${TMPBASEDIR}/blockstates/redstone_wire.json
 # models
 mkdir -p ${TMPBASEDIR}/models ${TMPBASEDIR}/models/block
-for _file in redstone_dot rs
+for _file in redstone_dust_dot redstone_dust_side redstone_dust_side_alt redstone_dust_side_alt0 redstone_dust_side_alt1 redstone_dust_side0 redstone_dust_side1 redstone_dust_up rs
 do
 	cat ${SRCDIR}/models/block/${_file}.json | \
 	sed "s/XXBLOCKDIRXX/${TEXTURES_BLOCKTARGET}/g" | \
@@ -108,7 +108,7 @@ cat ${SRCDIR}/blockstates/redstone_wire.json | \
 cat > ${TMPBASEDIR}/blockstates/redstone_wire.json
 # models
 mkdir -p ${TMPBASEDIR}/models ${TMPBASEDIR}/models/block
-for _file in redstone_dot rs
+for _file in redstone_dust_dot redstone_dust_side redstone_dust_side_alt redstone_dust_side_alt0 redstone_dust_side_alt1 redstone_dust_side0 redstone_dust_side1 redstone_dust_up rs
 do
 	cat ${SRCDIR}/models/block/${_file}.json | \
 	sed "s/XXBLOCKDIRXX/${TEXTURES_BLOCKTARGET}/g" | \
@@ -150,7 +150,7 @@ grep -v "rs00" | \
 cat > ${TMPBASEDIR}/blockstates/redstone_wire.json
 # models
 mkdir -p ${TMPBASEDIR}/models ${TMPBASEDIR}/models/block
-for _file in redstone_dot rs
+for _file in redstone_dust_dot redstone_dust_side redstone_dust_side_alt redstone_dust_side_alt0 redstone_dust_side_alt1 redstone_dust_side0 redstone_dust_side1 redstone_dust_up rs
 do
 	cat ${SRCDIR}/models/block/${_file}.json | \
 	sed "s/XXBLOCKDIRXX/${TEXTURES_BLOCKTARGET}/g" | \

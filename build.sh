@@ -1,10 +1,10 @@
 #! /bin/sh
 
 VER_MAJOR=1
-VER_MINOR=9
+VER_MINOR=10
 
 RESOURCE_PACK_NAME=RedstonePowerDisplay
-PACK_FORMAT=8
+PACK_FORMAT=9
 
 SRCDIR=${RESOURCE_PACK_NAME}/assets/minecraft
 

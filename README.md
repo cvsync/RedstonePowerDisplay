@@ -2,7 +2,7 @@
 The Minecraft resource pack ``Redstone Power Display'' , which replace redstone wire textures and display the redstone power level.
 
 ## Latest Version
-1.10.0
+1.11.0
 
 ## Variants
 RedstonePowerDisplay.zip - Overlay '0' when a redstone dust is not powered.
@@ -13,10 +13,13 @@ mplus_h12r : font is M+ bitmap hlv 12r
 
 http://mplus-fonts.osdn.jp/mplus-bitmap-fonts/index.html
 
-## For Java Edition (1.19 and above) users
+## For Java Edition (1.19.3 and above) users
 1.) Download zip file.
 
 2.) Put it into C:\Users\\\<Username\>\AppData\Roaming\.minecraft\resourcepacks
+
+## For Java Edition (1.19/1.19.1/1.19.2) users
+Try the version 1.9.0. These files are stored the directory '1.10.0'.
 
 ## For Java Edition (1.18/1.18.1/1.18.2) users
 Try the version 1.9.0. These files are stored the directory '1.9.0'.

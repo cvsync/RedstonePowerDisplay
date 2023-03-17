@@ -13,7 +13,7 @@ mplus_h12r : font is M+ bitmap hlv 12r
 
 http://mplus-fonts.osdn.jp/mplus-bitmap-fonts/index.html
 
-## For Java Edition (1.19.3 and above) users
+## For Java Edition (1.19.4 and above) users
 1.) Download zip file.
 
 2.) Put it into C:\Users\\\<Username\>\AppData\Roaming\.minecraft\resourcepacks

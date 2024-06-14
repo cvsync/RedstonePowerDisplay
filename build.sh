@@ -51,8 +51,9 @@ sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
 sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXSUBSTRXXX//g" | \
 cat > ${TMPDIR}/pack.mcmeta
-(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} *)
-rm -f -r ${TMPDIR}
+(cd ${TMPDIR}/ && sudo chown -R 0:0 .)
+(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} . -i "*")
+sudo rm -f -r ${TMPDIR}
 
 #
 # for Java Edition (w/o 0)
@@ -92,8 +93,9 @@ sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
 sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXSUBSTRXXX//g" | \
 cat > ${TMPDIR}/pack.mcmeta
-(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} *)
-rm -f -r ${TMPDIR}
+(cd ${TMPDIR}/ && sudo chown -R 0:0 .)
+(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} . -i "*")
+sudo rm -f -r ${TMPDIR}
 
 #
 # for Java Edition (M+ hlv 12r)
@@ -133,8 +135,9 @@ sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
 sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXSUBSTRXXX/(M+ h12r) /g" | \
 cat > ${TMPDIR}/pack.mcmeta
-(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} *)
-rm -f -r ${TMPDIR}
+(cd ${TMPDIR}/ && sudo chown -R 0:0 .)
+(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} . -i "*")
+sudo rm -f -r ${TMPDIR}
 
 #
 # for Java Edition (w/o 0) (M+ hlv 12r)
@@ -175,5 +178,9 @@ sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
 sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXSUBSTRXXX/(M+ h12r) /g" | \
 cat > ${TMPDIR}/pack.mcmeta
-(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} *)
-rm -f -r ${TMPDIR}
+(cd ${TMPDIR}/ && sudo chown -R 0:0 .)
+(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} . -i "*")
+sudo rm -f -r ${TMPDIR}
+
+mkdir -p ${VER_MAJOR}.${VER_MINOR}.0
+cp ./*.zip ${VER_MAJOR}.${VER_MINOR}.0/

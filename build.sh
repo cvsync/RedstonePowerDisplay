@@ -30,9 +30,10 @@ sed "s///g" < ${SRCDIR}/${_destfile} > ${TMPBASEDIR}/${_destfile}
 mkdir -p ${TMPBASEDIR}/models ${TMPBASEDIR}/models/block
 for _file in redstone_dust_dot redstone_dust_side redstone_dust_side_alt redstone_dust_side_alt0 redstone_dust_side_alt1 redstone_dust_side0 redstone_dust_side1 redstone_dust_up rs
 do
-	cat ${SRCDIR}/models/block/${_file}.json | \
+	_destfile=models/block/${_file}.json
+	cat ${SRCDIR}/${_destfile} | \
 	sed "s/XXBLOCKDIRXX/${TEXTURES_BLOCKTARGET}/g" | \
-	sed "s///g" > ${TMPBASEDIR}/models/block/${_file}.json
+	sed "s///g" > ${TMPBASEDIR}/${_destfile}
 done
 for _num in 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15
 do
@@ -46,13 +47,14 @@ mkdir -p ${TMPBASEDIR}/textures ${TEXTURES_BLOCKDIR}
 cp ${SRCDIR}/textures/blocks/* ${TEXTURES_BLOCKDIR}/
 
 cp ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/
-cat ${RESOURCE_PACK_NAME}/pack.mcmeta | \
+_destfile=pack.mcmeta
+cat ${RESOURCE_PACK_NAME}/${_destfile} | \
 sed "s/XXXPACKFORMATXXX/${PACK_FORMAT}/g" | \
 sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
 sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXREVXXX/${VER_REV}/g" | \
 sed "s/XXXSUBSTRXXX//g" | \
-sed "s///g" > ${TMPDIR}/pack.mcmeta
+sed "s///g" > ${TMPDIR}/${_destfile}
 (cd ${TMPDIR}/ && sudo chown -R 0:0 .)
 (cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} . -i "*")
 sudo rm -f -r ${TMPDIR}
@@ -66,16 +68,18 @@ rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR} ${TMPDIR}/assets ${TMPBASEDIR}
 # blockstates
 mkdir -p ${TMPBASEDIR}/blockstates
-cat ${SRCDIR}/blockstates/redstone_wire.json | \
+_destfile=blockstates/redstone_wire.json
+cat ${SRCDIR}/${_destfile} | \
 grep -v "rs00" | \
-sed "s///g" > ${TMPBASEDIR}/blockstates/redstone_wire.json
+sed "s///g" > ${TMPBASEDIR}/${_destfile}
 # models
 mkdir -p ${TMPBASEDIR}/models ${TMPBASEDIR}/models/block
 for _file in redstone_dust_dot redstone_dust_side redstone_dust_side_alt redstone_dust_side_alt0 redstone_dust_side_alt1 redstone_dust_side0 redstone_dust_side1 redstone_dust_up rs
 do
-	cat ${SRCDIR}/models/block/${_file}.json | \
+	_destfile=models/block/${_file}.json
+	cat ${SRCDIR}/${_destfile} | \
 	sed "s/XXBLOCKDIRXX/${TEXTURES_BLOCKTARGET}/g" | \
-	sed "s///g" > ${TMPBASEDIR}/models/block/${_file}.json
+	sed "s///g" > ${TMPBASEDIR}/${_destfile}
 done
 for _num in 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15
 do
@@ -89,13 +93,14 @@ mkdir -p ${TMPBASEDIR}/textures ${TEXTURES_BLOCKDIR}
 cp ${SRCDIR}/textures/blocks/* ${TEXTURES_BLOCKDIR}/
 
 cp ${RESOURCE_PACK_NAME}/pack_no_power_0.png ${TMPDIR}/pack.png
-cat ${RESOURCE_PACK_NAME}/pack.mcmeta | \
+_destfile=pack.mcmeta
+cat ${RESOURCE_PACK_NAME}/${_destfile} | \
 sed "s/XXXPACKFORMATXXX/${PACK_FORMAT}/g" | \
 sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
 sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXREVXXX/${VER_REV}/g" | \
 sed "s/XXXSUBSTRXXX//g" | \
-sed "s///g" > ${TMPDIR}/pack.mcmeta
+sed "s///g" > ${TMPDIR}/${_destfile}
 (cd ${TMPDIR}/ && sudo chown -R 0:0 .)
 (cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} . -i "*")
 sudo rm -f -r ${TMPDIR}
@@ -109,15 +114,17 @@ rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR} ${TMPDIR}/assets ${TMPBASEDIR}
 # blockstates
 mkdir -p ${TMPBASEDIR}/blockstates
-cat ${SRCDIR}/blockstates/redstone_wire.json | \
-sed "s///g" > ${TMPBASEDIR}/blockstates/redstone_wire.json
+_destfile=blockstates/redstone_wire.json
+cat ${SRCDIR}/${_destfile} | \
+sed "s///g" > ${TMPBASEDIR}/${_destfile}
 # models
 mkdir -p ${TMPBASEDIR}/models ${TMPBASEDIR}/models/block
 for _file in redstone_dust_dot redstone_dust_side redstone_dust_side_alt redstone_dust_side_alt0 redstone_dust_side_alt1 redstone_dust_side0 redstone_dust_side1 redstone_dust_up rs
 do
-	cat ${SRCDIR}/models/block/${_file}.json | \
+	_destfile=models/block/${_file}.json
+	cat ${SRCDIR}/${_destfile} | \
 	sed "s/XXBLOCKDIRXX/${TEXTURES_BLOCKTARGET}/g" | \
-	sed "s///g" > ${TMPBASEDIR}/models/block/${_file}.json
+	sed "s///g" > ${TMPBASEDIR}/${_destfile}
 done
 for _num in 00 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15
 do
@@ -132,13 +139,14 @@ cp ${SRCDIR}/textures/blocks/* ${TEXTURES_BLOCKDIR}/
 cp ${SRCDIR}/textures/mplus_h12r/*.png ${TEXTURES_BLOCKDIR}/
 
 cp ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/
-cat ${RESOURCE_PACK_NAME}/pack.mcmeta | \
+_destfile=pack.mcmeta
+cat ${RESOURCE_PACK_NAME}/${_destfile} | \
 sed "s/XXXPACKFORMATXXX/${PACK_FORMAT}/g" | \
 sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
 sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXREVXXX/${VER_REV}/g" | \
 sed "s/XXXSUBSTRXXX/(M+ h12r) /g" | \
-sed "s///g" > ${TMPDIR}/pack.mcmeta
+sed "s///g" > ${TMPDIR}/${_destfile}
 (cd ${TMPDIR}/ && sudo chown -R 0:0 .)
 (cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} . -i "*")
 sudo rm -f -r ${TMPDIR}
@@ -176,13 +184,14 @@ cp ${SRCDIR}/textures/blocks/* ${TEXTURES_BLOCKDIR}/
 cp ${SRCDIR}/textures/mplus_h12r/*.png ${TEXTURES_BLOCKDIR}/
 
 cp ${RESOURCE_PACK_NAME}/pack_no_power_0.png ${TMPDIR}/pack.png
-cat ${RESOURCE_PACK_NAME}/pack.mcmeta | \
+_destfile=pack.mcmeta
+cat ${RESOURCE_PACK_NAME}/${_destfile} | \
 sed "s/XXXPACKFORMATXXX/${PACK_FORMAT}/g" | \
 sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
 sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXREVXXX/${VER_REV}/g" | \
 sed "s/XXXSUBSTRXXX/(M+ h12r) /g" | \
-sed "s///g" > ${TMPDIR}/pack.mcmeta
+sed "s///g" > ${TMPDIR}/${_destfile}
 (cd ${TMPDIR}/ && sudo chown -R 0:0 .)
 (cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} . -i "*")
 sudo rm -f -r ${TMPDIR}

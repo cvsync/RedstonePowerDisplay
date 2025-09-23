@@ -14,7 +14,11 @@ RedstonePowerDisplay_NoPower0.zip - Don't show '0' when a redstone dust is not p
 
 mplus_h12r : font is M+ bitmap hlv 12r
 
-http://mplus-fonts.osdn.jp/mplus-bitmap-fonts/index.html
+M+ Fonts
+https://mplusfonts.github.io/
+
+M+ bitmap
+https://github.com/coz-m/MPLUS_FONTS/tree/master/obsolete
 
 ## For Java Edition (1.21.7 or later) users
 

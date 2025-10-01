@@ -4,7 +4,7 @@ The Minecraft resource pack ``Redstone Power Display'' , which replace redstone 
 
 ## Latest Version
 
-1.22.0
+1.23.0
 
 ## Variants
 
@@ -20,11 +20,15 @@ https://mplusfonts.github.io/
 M+ bitmap  
 https://github.com/coz-m/MPLUS_FONTS/tree/master/obsolete
 
-## For Java Edition (1.21.7 or later) users
+## For Java Edition (1.21.9 or later) users
 
 1.) Download zip file.
 
 2.) Put it into C:\Users\\\<Username\>\AppData\Roaming\.minecraft\resourcepacks
+
+## For Java Edition (1.21.7/1.21.8) users
+
+Try the version 1.22.0. These files are stored the directory '1.22.0'.
 
 ## For Java Edition (1.21.6) users
 

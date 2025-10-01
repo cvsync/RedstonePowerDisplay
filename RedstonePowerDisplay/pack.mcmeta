@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": XXXPACKFORMATXXX,
+    "min_format": [ XXXPACKFORMATXXX, 0 ],
+    "max_format": [ XXXPACKFORMATXXX, 0 ],
     "description": "Redstone Power Display XXXSUBSTRXXXvXXXMAJORXXX.XXXMINORXXX.XXXREVXXX"
   }
 }

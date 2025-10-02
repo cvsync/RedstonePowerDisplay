@@ -4,7 +4,7 @@ The Minecraft resource pack ``Redstone Power Display'' , which replace redstone 
 
 ## Latest Version
 
-1.23.0
+1.23.1
 
 ## Variants
 

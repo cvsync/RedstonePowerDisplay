@@ -20,7 +20,7 @@ https://mplusfonts.github.io/
 M+ bitmap  
 https://github.com/coz-m/MPLUS_FONTS/tree/master/obsolete
 
-## For Java Edition (1.21.9 or later) users
+## For Java Edition (1.21.9/1.21.10 or later) users
 
 1.) Download zip file.
 

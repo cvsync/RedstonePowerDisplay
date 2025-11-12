@@ -4,7 +4,8 @@ VER_MAJOR=1
 VER_MINOR=23
 VER_REV=1
 
-PACK_FORMAT=69
+PACK_FORMAT=73
+PACK_FORMAT_MINOR=0
 
 RESOURCE_PACK_NAME=RedstonePowerDisplay
 
@@ -51,6 +52,7 @@ cp ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/
 _destfile=pack.mcmeta
 cat ${RESOURCE_PACK_NAME}/${_destfile} | \
 sed "s/XXXPACKFORMATXXX/${PACK_FORMAT}/g" | \
+sed "s/XXXPACKFORMATMINORXXX/${PACK_FORMAT_MINOR}/g" | \
 sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
 sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXREVXXX/${VER_REV}/g" | \

@@ -1,5 +1,5 @@
 {
-  "parent": "block/rs",
+  "parent": "minecraft:block/rs",
   "textures": {
     "line": "XXBLOCKDIRXX/rsXXNUMXX"
   }

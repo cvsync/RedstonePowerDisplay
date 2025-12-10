@@ -2,7 +2,7 @@
 
 VER_MAJOR=1
 VER_MINOR=24
-VER_REV=0
+VER_REV=1
 
 PACK_FORMAT=75
 PACK_FORMAT_MINOR=0
@@ -99,6 +99,7 @@ cp ${RESOURCE_PACK_NAME}/pack_no_power_0.png ${TMPDIR}/pack.png
 _destfile=pack.mcmeta
 cat ${RESOURCE_PACK_NAME}/${_destfile} | \
 sed "s/XXXPACKFORMATXXX/${PACK_FORMAT}/g" | \
+sed "s/XXXPACKFORMATMINORXXX/${PACK_FORMAT_MINOR}/g" | \
 sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
 sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXREVXXX/${VER_REV}/g" | \
@@ -118,8 +119,7 @@ mkdir -p ${TMPDIR} ${TMPDIR}/assets ${TMPBASEDIR}
 # blockstates
 mkdir -p ${TMPBASEDIR}/blockstates
 _destfile=blockstates/redstone_wire.json
-cat ${SRCDIR}/${_destfile} | \
-sed "s///g" > ${TMPBASEDIR}/${_destfile}
+sed "s///g" < ${SRCDIR}/${_destfile} > ${TMPBASEDIR}/${_destfile}
 # models
 mkdir -p ${TMPBASEDIR}/models ${TMPBASEDIR}/models/block
 for _file in redstone_dust_dot redstone_dust_side redstone_dust_side_alt redstone_dust_side_alt0 redstone_dust_side_alt1 redstone_dust_side0 redstone_dust_side1 redstone_dust_up rs
@@ -145,6 +145,7 @@ cp ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/
 _destfile=pack.mcmeta
 cat ${RESOURCE_PACK_NAME}/${_destfile} | \
 sed "s/XXXPACKFORMATXXX/${PACK_FORMAT}/g" | \
+sed "s/XXXPACKFORMATMINORXXX/${PACK_FORMAT_MINOR}/g" | \
 sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
 sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXREVXXX/${VER_REV}/g" | \
@@ -190,6 +191,7 @@ cp ${RESOURCE_PACK_NAME}/pack_no_power_0.png ${TMPDIR}/pack.png
 _destfile=pack.mcmeta
 cat ${RESOURCE_PACK_NAME}/${_destfile} | \
 sed "s/XXXPACKFORMATXXX/${PACK_FORMAT}/g" | \
+sed "s/XXXPACKFORMATMINORXXX/${PACK_FORMAT_MINOR}/g" | \
 sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
 sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXREVXXX/${VER_REV}/g" | \

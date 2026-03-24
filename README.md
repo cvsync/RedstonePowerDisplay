@@ -22,9 +22,9 @@ M+ bitmap
 
 ## For Java Edition (26.1 or later) users
 
-1.) Download zip file.
+1.) Download the ZIP file from the `1.25.0` directory.
 
-2.) Put it into `C:\Users\<Username>\AppData\Roaming\.minecraft\resourcepacks`
+2.) Place it in `C:\Users\<Username>\AppData\Roaming\.minecraft\resourcepacks`
 
 ## For Java Edition (1.21.9/1.21.10/1.21.11) users
 

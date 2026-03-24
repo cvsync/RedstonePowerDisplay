@@ -8,7 +8,7 @@ The Minecraft resource pack, ``Redstone Power Display,'' replaces redstone wire 
 
 ## Variants
 
-`RedstonePowerDisplay.zip` - Overlay '0' when the redstone dust is not powered.
+`RedstonePowerDisplay.zip` - Overlay '0' when a redstone dust is not powered.
 
 `RedstonePowerDisplay_NoPower0.zip` - Don't display '0' when a redstone dust is not powered.
 

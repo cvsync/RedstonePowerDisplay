@@ -20,6 +20,9 @@ TMPBASEDIR=${TMPDIR}/assets/minecraft
 TEXTURES_BLOCKTARGET=block
 TEXTURES_BLOCKDIR=${TMPBASEDIR}/textures/${TEXTURES_BLOCKTARGET}
 
+rm -f -r ${VER_MAJOR}.${VER_MINOR}.${VER_REV}
+mkdir -p ${VER_MAJOR}.${VER_MINOR}.${VER_REV}
+
 #
 # for Java Edition
 #
@@ -64,7 +67,7 @@ sed "s/XXXREVXXX/${VER_REV}/g" | \
 sed "s/XXXSUBSTRXXX//g" | \
 sed "s///g" > ${TMPDIR}/${_destfile}
 (cd ${TMPDIR}/ && sudo chown -R 0:0 .)
-(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} . -i "*")
+(cd ${TMPDIR}/ && zip -r ../${VER_MAJOR}.${VER_MINOR}.${VER_REV}/${RESOURCE_PACK_FILE_JAVA} . -i "*")
 sudo rm -f -r ${TMPDIR}
 
 #
@@ -113,7 +116,7 @@ sed "s/XXXREVXXX/${VER_REV}/g" | \
 sed "s/XXXSUBSTRXXX//g" | \
 sed "s///g" > ${TMPDIR}/${_destfile}
 (cd ${TMPDIR}/ && sudo chown -R 0:0 .)
-(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} . -i "*")
+(cd ${TMPDIR}/ && zip -r ../${VER_MAJOR}.${VER_MINOR}.${VER_REV}/${RESOURCE_PACK_FILE_JAVA} . -i "*")
 sudo rm -f -r ${TMPDIR}
 
 #
@@ -161,7 +164,7 @@ sed "s/XXXREVXXX/${VER_REV}/g" | \
 sed "s/XXXSUBSTRXXX/(M+ h12r) /g" | \
 sed "s///g" > ${TMPDIR}/${_destfile}
 (cd ${TMPDIR}/ && sudo chown -R 0:0 .)
-(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} . -i "*")
+(cd ${TMPDIR}/ && zip -r ../${VER_MAJOR}.${VER_MINOR}.${VER_REV}/${RESOURCE_PACK_FILE_JAVA} . -i "*")
 sudo rm -f -r ${TMPDIR}
 
 #
@@ -209,8 +212,7 @@ sed "s/XXXREVXXX/${VER_REV}/g" | \
 sed "s/XXXSUBSTRXXX/(M+ h12r) /g" | \
 sed "s///g" > ${TMPDIR}/${_destfile}
 (cd ${TMPDIR}/ && sudo chown -R 0:0 .)
-(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} . -i "*")
+(cd ${TMPDIR}/ && zip -r ../${VER_MAJOR}.${VER_MINOR}.${VER_REV}/${RESOURCE_PACK_FILE_JAVA} . -i "*")
 sudo rm -f -r ${TMPDIR}
 
-mkdir -p ${VER_MAJOR}.${VER_MINOR}.${VER_REV}
-cp ./*.zip ${VER_MAJOR}.${VER_MINOR}.${VER_REV}/
+ls -l ${VER_MAJOR}.${VER_MINOR}.${VER_REV}/

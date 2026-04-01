@@ -20,7 +20,7 @@ M+ Fonts
 M+ bitmap  
 [https://github.com/coz-m/MPLUS_FONTS/tree/master/obsolete](https://github.com/coz-m/MPLUS_FONTS/tree/master/obsolete)
 
-## For Java Edition (26.1 or later) users
+## For Java Edition (26.1/26.1.1 or later) users
 
 1.) Download the resource pack from the `1.25.0` directory.
 

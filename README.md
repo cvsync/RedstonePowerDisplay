@@ -4,7 +4,7 @@ The Minecraft resource pack, ``Redstone Power Display,'' replaces redstone wire 
 
 ## Latest Version
 
-1.25.0
+1.25.1
 
 ## Variants
 
@@ -20,9 +20,9 @@ M+ Fonts
 M+ bitmap  
 [https://github.com/coz-m/MPLUS_FONTS/tree/master/obsolete](https://github.com/coz-m/MPLUS_FONTS/tree/master/obsolete)
 
-## For Java Edition (26.1/26.1.1/26.1.2 or later) users
+## For Java Edition (26.1/26.1.1/26.1.2/26.2 or later) users
 
-1.) Download the resource pack from the `1.25.0` directory.
+1.) Download the resource pack from the `1.25.1` directory.
 
 2.) Place it in `C:\Users\<Username>\AppData\Roaming\.minecraft\resourcepacks`
 

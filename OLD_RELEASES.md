@@ -1,4 +1,4 @@
-# For Java Edition users
+# For Java Edition
 
 ## 1.21.7/1.21.8
 

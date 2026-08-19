@@ -1,5 +1,13 @@
 #! /bin/sh
 
+#
+# Redstone Power Display
+#
+# The Minecraft resource pack, ``Redstone Power Display,'' replaces redstone wire textures and displays the redstone
+# power level.
+# https://github.com/cvsync/RedstonePowerDisplay
+#
+
 VER_MAJOR=1
 VER_MINOR=25
 VER_REV=1

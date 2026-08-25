@@ -3,8 +3,7 @@
 #
 # Redstone Power Display
 #
-# The Minecraft resource pack, ``Redstone Power Display,'' replaces redstone wire textures and displays the redstone
-# power level.
+# A Minecraft resource pack that replaces redstone dust textures and displays the redstone signal strength.
 # https://github.com/cvsync/RedstonePowerDisplay
 #
 

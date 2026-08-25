@@ -20,7 +20,7 @@ Two variants are available: one that displays `0` when the redstone signal stren
 
 ## Fonts
 
-`mplus_h12r`: Uses M+ bitmap hlv 12r font.
+`mplus_h12r`: Uses the `M+ bitmap hlv 12r` font.
 
 [M+ Fonts](https://mplusfonts.github.io/)
 

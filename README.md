@@ -1,69 +1,77 @@
 # Redstone Power Display
 
-The Minecraft resource pack, ``Redstone Power Display,'' replaces redstone wire textures and displays the redstone power level.
+A Minecraft resource pack that replaces redstone dust textures and displays the redstone signal strength.
 
-レッドストーンパウダーのテクスチャを置き換え、レッドストーン信号強度を見えるようにするマインクラフトのリソースパックです。
+レッドストーンパウダーのテクスチャを置き換え、レッドストーン信号強度を表示するマインクラフトのリソースパックです。
 
-レッドストーン信号強度が０の場合、０も表示するバージョンと、０は表示しないバージョン、それぞれを別に用意しています。
+Two variants are available: one that displays `0` when the redstone signal strength is 0, and one that does not display `0`.
 
-## Latest Version
+レッドストーン信号強度が０の場合、０も表示するバージョンと、０は表示しないバージョンの２種類を用意しています。
+
+## Latest Release
 
 1.25.1
 
 ## Variants
 
-`RedstonePowerDisplay.zip` - Overlay '0' when a redstone dust is not powered.
+`RedstonePowerDisplay.zip` - Displays `0` when the redstone signal strength is 0.
 
-`RedstonePowerDisplay_NoPower0.zip` - Don't display '0' when a redstone dust is not powered.
+`RedstonePowerDisplay_NoPower0.zip` - Does not display `0` when the redstone signal strength is 0.
 
-mplus_h12r : font is M+ bitmap hlv 12r
+## Fonts
 
-M+ Fonts  
-[https://mplusfonts.github.io/](https://mplusfonts.github.io/)
+`mplus_h12r`: Uses M+ bitmap hlv 12r font.
 
-M+ bitmap  
-[https://github.com/coz-m/MPLUS_FONTS/tree/master/obsolete](https://github.com/coz-m/MPLUS_FONTS/tree/master/obsolete)
+[M+ Fonts](https://mplusfonts.github.io/)
 
-## For Java Edition (26.1/26.1.1/26.1.2/26.2 or later)
+[M+ bitmap](https://github.com/coz-m/MPLUS_FONTS/tree/master/obsolete)
 
-1.) Download the resource pack from the `1.25.1` directory.
+## Java Edition
 
-2.) Place it in `C:\Users\<Username>\AppData\Roaming\.minecraft\resourcepacks`
+### 26.1/26.1.1/26.1.2/26.2 or later
 
-## For Java Edition (1.21.9/1.21.10/1.21.11)
+1. Download the resource pack from the `1.25.1` directory.
 
-Try version 1.24.3, as these files are stored in the `1.24.3` directory.
+2. Place the downloaded file in your Minecraft `resourcepacks` folder.
 
-## For older Java Edition
+On Windows, the default location is:
 
-[Old Releases](OLD_RELEASES.md)
+`C:\Users\<Username>\AppData\Roaming\.minecraft\resourcepacks`
+
+### 1.21.9/1.21.10/1.21.11
+
+Use version 1.24.3 instead. The corresponding files are available in the `1.24.3` directory.
+
+## Older Minecraft versions
+
+See the [Old Releases](OLD_RELEASES.md) for older versions of the resource pack.
 
 ## Images
 
-### `Select Resource Packs` Image / `リソースパックの選択` 画面イメージ
+### `Select Resource Packs` Screen / `リソースパックの選択` 画面
 
 ![Resource Packs List Image](./images/RedstonePowerDisplayList.png "Resource Packs List Image")
 
-### RedstonePowerDisplay.zip
+### `RedstonePowerDisplay.zip`
 
-7SEG Font w/ 0 / ０表示あり７セグフォント
+7-segment font with `0` / ０表示あり７セグフォント
 
 ![RedstonePowerDisplay.zip Image](./images/RedstonePowerDisplay.png "RedstonePowerDisplay.zip Image")
 
-### RedstonePowerDisplay_NoPower0.zip
+### `RedstonePowerDisplay_NoPower0.zip`
 
-7SEG Font w/o 0 / ０表示なし７セグフォント
+7-segment font without `0` / ０表示なし７セグフォント
 
 ![RedstonePowerDisplay_NoPower0.zip Image](./images/RedstonePowerDisplay_NoPower0.png "RedstonePowerDisplay_NoPower0.zip Image")
 
-### RedstonePowerDisplay_mplus_h12r.zip
+### `RedstonePowerDisplay_mplus_h12r.zip`
 
-M+ Font w/ 0 / ０表示あり M+ フォント
+M+ font with `0` / ０表示あり M+ フォント
 
 ![RedstonePowerDisplay_mplus_h12r.zip Image](./images/RedstonePowerDisplay_mplus_h12r.png "RedstonePowerDisplay_mplus_h12r.zip Image")
 
-### RedstonePowerDisplay_NoPower0_mplus_h12r.zip
+### `RedstonePowerDisplay_NoPower0_mplus_h12r.zip`
 
-M+ Font w/o 0 / ０表示なし M+ フォント
+M+ font without `0` / ０表示なし M+ フォント
 
 ![RedstonePowerDisplay_NoPower0_mplus_h12r.zip Image](./images/RedstonePowerDisplay_NoPower0_mplus_h12r.png "RedstonePowerDisplay_NoPower0_mplus_h12r.zip Image")

@@ -2,9 +2,9 @@
 
 A Minecraft resource pack that replaces redstone dust textures and displays the redstone signal strength.
 
-レッドストーンパウダーのテクスチャを置き換え、レッドストーン信号強度を表示するマインクラフトのリソースパックです。
-
 Two variants are available: one that displays `0` when the redstone signal strength is 0, and one that does not display `0`.
+
+レッドストーンパウダーのテクスチャを置き換え、レッドストーン信号強度を表示するマインクラフトのリソースパックです。
 
 レッドストーン信号強度が０の場合、０も表示するバージョンと、０は表示しないバージョンの２種類を用意しています。
 

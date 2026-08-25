@@ -28,7 +28,7 @@ Two variants are available: one that displays `0` when the redstone signal stren
 
 ## Java Edition
 
-### Minecraft 26.1/26.1.1/26.1.2/26.2 or later
+### Minecraft 26.1 / 26.1.1 / 26.1.2 / 26.2 or later
 
 1. Download the resource pack from the `1.25.1` directory.
 
@@ -38,7 +38,7 @@ On Windows, the default location is:
 
 `C:\Users\<Username>\AppData\Roaming\.minecraft\resourcepacks`
 
-### Minecraft 1.21.9/1.21.10/1.21.11
+### Minecraft 1.21.9 / 1.21.10 / 1.21.11
 
 Use version 1.24.3 instead. The corresponding files are available in the `1.24.3` directory.
 

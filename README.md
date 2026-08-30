@@ -51,10 +51,6 @@ See the [Old Releases](OLD_RELEASES.md) for older versions of the resource pack.
 
 ## Images
 
-### `Select Resource Packs` Screen / `リソースパックの選択` 画面
-
-![Resource Packs List Image](./images/RedstonePowerDisplayList.png "Resource Packs List Image")
-
 ### `RedstonePowerDisplay.zip`
 
 7-segment font with `0` / ０表示あり７セグフォント

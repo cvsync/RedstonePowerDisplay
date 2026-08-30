@@ -1,3 +1,5 @@
+<p><img src="./images/pack.png" alt="resource pack icon" style="background-color: black; padding: 2px;"></img></p>
+
 # Redstone Power Display
 
 A Minecraft resource pack that replaces redstone dust textures and displays the redstone signal strength.

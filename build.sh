@@ -33,7 +33,7 @@ mkdir -p ${VER_MAJOR}.${VER_MINOR}.${VER_REV}
 #
 # for Java Edition
 #
-RESOURCE_PACK_FILE_JAVA=${RESOURCE_PACK_NAME}.zip
+RESOURCE_PACK_FILE_JAVA=${RESOURCE_PACK_NAME}_v${VER_MAJOR}.${VER_MINOR}.${VER_REV}.zip
 rm -f ${RESOURCE_PACK_FILE_JAVA}
 rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR} ${TMPDIR}/assets ${TMPBASEDIR}
@@ -80,7 +80,7 @@ sudo rm -f -r ${TMPDIR}
 #
 # for Java Edition (w/o 0)
 #
-RESOURCE_PACK_FILE_JAVA=${RESOURCE_PACK_NAME}_NoPower0.zip
+RESOURCE_PACK_FILE_JAVA=${RESOURCE_PACK_NAME}_NoPower0_v${VER_MAJOR}.${VER_MINOR}.${VER_REV}.zip
 rm -f ${RESOURCE_PACK_FILE_JAVA}
 rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR} ${TMPDIR}/assets ${TMPBASEDIR}
@@ -129,7 +129,7 @@ sudo rm -f -r ${TMPDIR}
 #
 # for Java Edition (M+ hlv 12r)
 #
-RESOURCE_PACK_FILE_JAVA=${RESOURCE_PACK_NAME}_mplus_h12r.zip
+RESOURCE_PACK_FILE_JAVA=${RESOURCE_PACK_NAME}_mplus_h12r_v${VER_MAJOR}.${VER_MINOR}.${VER_REV}.zip
 rm -f ${RESOURCE_PACK_FILE_JAVA}
 rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR} ${TMPDIR}/assets ${TMPBASEDIR}
@@ -177,7 +177,7 @@ sudo rm -f -r ${TMPDIR}
 #
 # for Java Edition (w/o 0) (M+ hlv 12r)
 #
-RESOURCE_PACK_FILE_JAVA=${RESOURCE_PACK_NAME}_NoPower0_mplus_h12r.zip
+RESOURCE_PACK_FILE_JAVA=${RESOURCE_PACK_NAME}_NoPower0_mplus_h12r_v${VER_MAJOR}.${VER_MINOR}.${VER_REV}.zip
 rm -f ${RESOURCE_PACK_FILE_JAVA}
 rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR} ${TMPDIR}/assets ${TMPBASEDIR}

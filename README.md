@@ -1,4 +1,4 @@
-<kbd><img src="./RedstonePowerDisplay/pack.png" alt="resource pack icon" style="background-color: black; padding: 2px;"></img></kbd>
+<kbd><img src="./RedstonePowerDisplay/pack.png" alt="resource pack icon"></img></kbd>
 
 # Redstone Power Display
 

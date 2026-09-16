@@ -13,7 +13,7 @@ one that displays `0` when the redstone signal strength is 0, and one that does 
 
 ## Latest Release
 
-1.25.1
+1.25.2
 
 ## Variants
 
@@ -31,9 +31,9 @@ one that displays `0` when the redstone signal strength is 0, and one that does 
 
 ## Java Edition
 
-### Minecraft 26.1 / 26.1.1 / 26.1.2 / 26.2 or later
+### Minecraft 26.1 / 26.1.1 / 26.1.2 / 26.2 / 26.3 or later
 
-1. Download the resource pack from the `1.25.1` directory.
+1. Download the resource pack from the `1.25.2` directory.
 
 2. Place the downloaded file in your Minecraft `resourcepacks` folder.
 

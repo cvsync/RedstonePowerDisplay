@@ -61,7 +61,7 @@ done
 mkdir -p ${TMPBASEDIR}/textures ${TEXTURES_BLOCKDIR}
 cp ${SRCDIR}/textures/blocks/* ${TEXTURES_BLOCKDIR}/
 
-cp ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/
+cp ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/pack.png
 _destfile=pack.mcmeta
 cat ${RESOURCE_PACK_NAME}/${_destfile} | \
 sed "s/XXXMAXPACKFORMATXXX/${MAX_PACK_FORMAT}/g" | \
@@ -158,7 +158,7 @@ mkdir -p ${TMPBASEDIR}/textures ${TEXTURES_BLOCKDIR}
 cp ${SRCDIR}/textures/blocks/* ${TEXTURES_BLOCKDIR}/
 cp ${SRCDIR}/textures/mplus_h12r/*.png ${TEXTURES_BLOCKDIR}/
 
-cp ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/
+cp ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/pack.png
 _destfile=pack.mcmeta
 cat ${RESOURCE_PACK_NAME}/${_destfile} | \
 sed "s/XXXMAXPACKFORMATXXX/${MAX_PACK_FORMAT}/g" | \
